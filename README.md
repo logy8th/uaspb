@@ -13,11 +13,11 @@ Dosen   : Agung Nugroho S.Kom, M.Kom
 
 ![package](images/folder.png)
 
-#Penjelasan :
+# Penjelasan :
 
-##Model
+## Model
 
-###Daftar_nilai
+### Daftar_nilai
 
 *Tambah data*
 * ``data = {}`` untuk menampung list data yang nanti akan terinput
@@ -139,7 +139,7 @@ Hapus data
 ![flowchart](images/flowchart.png)
 
 ***
-**Sekian tugas saya untuk tugas syarat UAS Semester 1 ini, Terimkasih.**
+**Sekian tugas saya untuk syarat UAS Semester 1 ini, Terimkasih.**
 <br>
 
 ![ttd](images/tttd.png)
