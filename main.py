@@ -1,9 +1,9 @@
 from model.daftar_nilai import *
 from view.view_nilai import *
 
-#Mulai
+
 print("===============================================================")
-print("|                           Program 1                         |")
+print("|                           Program UAS                       |")
 print("===============================================================")
 
 while True:
@@ -32,4 +32,4 @@ while True:
         break
 
     else:
-        print("Upss ada yang salah, silahkan cek kembali.")
+        print("Something wrong, check again!")

@@ -1,17 +1,25 @@
 # Tugas UAS Bahasa Pemrograman Semester 1
+Repository ini dibuat untuk memenuhi tugas syarat UAS semester 1.
+<br>
 
+<pre>
+Nama    : Naufal Nirwansyah 
+Kelas   : TI.20.A1
+NIM     : 312010174
+Dosen   : Agung Nugroho S.Kom, M.Kom
+</pre>
 
 **Struktur Package & Module**
 
-![package](images/folder.png)  <<<<<
+![package](images/folder.png)
 
-**Penjelasan:**
+#Penjelasan :
 
-**Model**
+##Model
 
-Daftar_nilai
+###Daftar_nilai
 
-*-tambah data*
+*Tambah data*
 * ``data = {}`` untuk menampung list data yang nanti akan terinput
 * deklarasikan fungsi ``def tambah_data():``
 * ``nama = input("Masukan nama: ")`` lalu tambahkan input nama, nim, nilai tugas, uts, uas
@@ -19,7 +27,7 @@ Daftar_nilai
 * ``data[nama] = [nama, nim, nilai_tugas, nilai_uts, nilai_uas, nilai_akhir]`` kita akan masukkan data yang tadi kita input ke dalam `data[nama]'
 * lalu cetak ``print()``
 
-*-Ubah data*
+*Ubah data*
 * deklarasikan fungsi ``def ubah_data():``
 * ``nama = input("Masukan nama untuk mengubah data: ")`` kita akan menginput data yang nanti akan di ubah
 * ``if nama in data.keys(): print("Mau mengubah apa?")`` jika 'nama' dari di dalam 'data' maka akan mengembalikan daftar menggunakan fungsi 'keys()' lalu di cetak lah 'print()'
@@ -33,14 +41,14 @@ Daftar_nilai
 * lalu cetak ``print("\nBerhasil ubah data!")``
 * ``else: print("'{}' tidak ditemukan.".format(nama))`` jika kita salah dalam memasukkan nama untuk mengubah data maka akan muncul 'nama tidak di temukan'
 
-*-Cari data*
+*Cari data*
 * deklarasikan fungsi ``def cari_data():``
 * ``nama = input("Masukan nama untuk mencari data: ")`` kita akan menginput data yang nanti akan di cari
 * ``if nama in data.keys():`` kita mengambil list 'nama' di dalam 'data' menggunakan pengkondisian
 * maka cetak ``print("| {0:14} | {1:9} | {2:5} | {3:5} | {4:5} | {5:5}" .format(nama, data[nama][1], data[nama][2], data[nama][3], data[nama][4], data[nama][5]))`` untuk menampilkan data yang tersedia
 * ``else: print("'{}' tidak ditemukan.".format(nama))`` jika data yang kita input salah/tidak ditemukan maka akan tercetak 'nama tidak di temukan'
 
-*-Hapus data*
+*Hapus data*
 * deklarasikan fungsi ``def hapus_data():``
 * ``nama = input("Masukan nama untuk menghapus data : ")`` kita akan menginput data yang nanti akan di hapus
 * ``if nama in data.keys():`` kita mengambil list 'nama' di dalam 'data' menggunakan pengkondisian
@@ -48,12 +56,12 @@ Daftar_nilai
 * jika sudah maka cetak ``print("sub_data '{}' berhasil dihapus.".format(nama))``
 * ``else: print("'{}' tidak ditemukan.".format(nama))`` jika data yang kita input salah/tidak ditemukan maka akan tercetak 'nama tidak di temukan'
 
-**View**
+##View
 
-input_nilai
+###input_nilai
 * menambahkan fungsi input yang nanti nya akan di deklarasikan di setiap module nya, ``def input_nama():`` ``def input_nim():`` dan yg lainnya, yang nanti akan di masukkan kedalam ``data={}``
 
-view_nilai
+###view_nilai
 * deklarasikan fungsi ``def lihat_data():`` Kita menggunakan kondisi percabangan if, ambil data dari ``data``
 * lalu cetak ``print()``
 
@@ -63,9 +71,9 @@ Lalu yang terakhir kita eksekusi file main.py
 from model.daftar_nilai import *
 from view.view_nilai import *
 
-#Mulai
+
 print("===============================================================")
-print("|                           Program 1                         |")
+print("|                           Program UAS                       |")
 print("===============================================================")
 
 while True:
@@ -94,7 +102,7 @@ while True:
         break
 
     else:
-        print("Upss ada yang salah, silahkan cek kembali.")
+        print("Something wrong, check again!")
 
 ```
 
@@ -102,30 +110,39 @@ while True:
 
 Tambah data
 
-![output-praktikum-5](assets/img/t.png) <<<<<
+![output-tambah-data](images/tambah.png)
 
 
 Ubah data
 
-![output-praktikum-5](assets/img/u.png) <<<<<
+![output-ubah-data](images/ubah.png)
 
 
 Lihat data
 
-![output-praktikum-5](assets/img/l.png) <<<<<
+![output-lihat-data](images/lihat.png)
 
 
 Cari data
 
-![output-praktikum-5](assets/img/c.png) <<<<<
+![output-cari-data](images/cari.png)
 
 
 Hapus data
 
-![output-praktikum-5](assets/img/h.png) <<<<<
+![output-hapus-data](images/hapus.png)
 
 
 **Flowchart:**
 
 
-![output-praktikum-5](assets/img/flowchart.png) <<<<<
+![flowchart](images/flowchart.png)
+
+***
+**Sekian tugas saya untuk tugas syarat UAS Semester 1 ini, Terimkasih.**
+<br>
+
+![ttd](images/tttd.png)
+<br>
+
+**Naufal Nirwansyah**
