@@ -106,7 +106,7 @@ while True:
 
 ```
 
-**Output:**
+# Output:
 
 Tambah data
 
